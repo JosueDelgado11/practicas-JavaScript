@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 15px;
+}
+
+.menu {
+    background-color: yellowgreen;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+    /*&:hover{
+        background-color: yellow;
+    }*/
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    background-color: aquamarine;
+    position: relative;
+    top: calc(50vh - 100px);
+    left: calc(50% - 100px);
+    
+}
+
+.box-1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
